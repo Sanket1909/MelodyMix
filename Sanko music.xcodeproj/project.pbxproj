@@ -11,6 +11,28 @@
 		393891A527FA388B00BB5A00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393891A427FA388B00BB5A00 /* ContentView.swift */; };
 		393891A727FA388B00BB5A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393891A627FA388B00BB5A00 /* Assets.xcassets */; };
 		393891AA27FA388B00BB5A00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393891A927FA388B00BB5A00 /* Preview Assets.xcassets */; };
+		393891B127FA399300BB5A00 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393891B027FA399300BB5A00 /* Launch Screen.storyboard */; };
+		393891B327FA3C4900BB5A00 /* Screen Shot 2022-04-03 at 4.29.47 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 393891B227FA3C4900BB5A00 /* Screen Shot 2022-04-03 at 4.29.47 PM.png */; };
+		393891B727FA43D400BB5A00 /* da75e73447b64026aaa576de2c5b667a.png in Resources */ = {isa = PBXBuildFile; fileRef = 393891B627FA43D400BB5A00 /* da75e73447b64026aaa576de2c5b667a.png */; };
+		393891BA27FA545600BB5A00 /* da75e73447b64026aaa576de2c5b667a (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 393891B927FA545600BB5A00 /* da75e73447b64026aaa576de2c5b667a (1).png */; };
+		394F26D327FFDD2D00AF9B79 /* PlaybackControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394F26D227FFDD2D00AF9B79 /* PlaybackControlButton.swift */; };
+		394F26D527FFE8C700AF9B79 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394F26D427FFE8C700AF9B79 /* ViewModel.swift */; };
+		394F26D727FFEDA700AF9B79 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394F26D627FFEDA700AF9B79 /* AudioManager.swift */; };
+		394F26D927FFF7EE00AF9B79 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394F26D827FFF7ED00AF9B79 /* Extensions.swift */; };
+		394F26DD2800031F00AF9B79 /* Shakira_ft_Wyclef_Jean_-_Hips_Dont_Lie_[NaijaGreen.Com]_.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 394F26DC2800031F00AF9B79 /* Shakira_ft_Wyclef_Jean_-_Hips_Dont_Lie_[NaijaGreen.Com]_.mp3 */; };
+		396A81F127FA6ED5000228B7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 396A81F027FA6ED5000228B7 /* FirebaseAuth */; };
+		396A81F327FA6ED5000228B7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 396A81F227FA6ED5000228B7 /* FirebaseFirestore */; };
+		396A81F527FA6ED5000228B7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 396A81F427FA6ED5000228B7 /* FirebaseStorage */; };
+		396A81F727FA7135000228B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 396A81F627FA7135000228B7 /* GoogleService-Info.plist */; };
+		397EBBD327FB7A5800067CDC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397EBBD227FB7A5800067CDC /* ImagePicker.swift */; };
+		397EBBD627FB978A00067CDC /* MainMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397EBBD527FB978A00067CDC /* MainMessagesView.swift */; };
+		397EBBD827FB9F8E00067CDC /* shakira-queso-espinosa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 397EBBD727FB9F8D00067CDC /* shakira-queso-espinosa.jpeg */; };
+		397EBBDA27FBA07100067CDC /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 397EBBD927FBA07100067CDC /* play.png */; };
+		397EBBDC27FCA65600067CDC /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 397EBBDB27FCA65600067CDC /* house.png */; };
+		397EBBDE27FCAC0A00067CDC /* icons8-earbud-headphones-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 397EBBDD27FCAC0A00067CDC /* icons8-earbud-headphones-64.png */; };
+		397EBBE227FCACD300067CDC /* icons8-music-heart-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 397EBBE127FCACD300067CDC /* icons8-music-heart-40.png */; };
+		398307F627FA8DE800DA17CF /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398307F527FA8DE800DA17CF /* SwiftUIView.swift */; };
+		39D6DDBA27FF723C0092BC04 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D6DDB927FF723C0092BC04 /* FirebaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +41,26 @@
 		393891A427FA388B00BB5A00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		393891A627FA388B00BB5A00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		393891A927FA388B00BB5A00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		393891B027FA399300BB5A00 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		393891B227FA3C4900BB5A00 /* Screen Shot 2022-04-03 at 4.29.47 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-04-03 at 4.29.47 PM.png"; sourceTree = "<group>"; };
+		393891B627FA43D400BB5A00 /* da75e73447b64026aaa576de2c5b667a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = da75e73447b64026aaa576de2c5b667a.png; sourceTree = "<group>"; };
+		393891B827FA446400BB5A00 /* Sanko-music-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sanko-music-Info.plist"; sourceTree = SOURCE_ROOT; };
+		393891B927FA545600BB5A00 /* da75e73447b64026aaa576de2c5b667a (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "da75e73447b64026aaa576de2c5b667a (1).png"; sourceTree = "<group>"; };
+		394F26D227FFDD2D00AF9B79 /* PlaybackControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlButton.swift; sourceTree = "<group>"; };
+		394F26D427FFE8C700AF9B79 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		394F26D627FFEDA700AF9B79 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		394F26D827FFF7ED00AF9B79 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		394F26DC2800031F00AF9B79 /* Shakira_ft_Wyclef_Jean_-_Hips_Dont_Lie_[NaijaGreen.Com]_.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shakira_ft_Wyclef_Jean_-_Hips_Dont_Lie_[NaijaGreen.Com]_.mp3"; sourceTree = "<group>"; };
+		396A81F627FA7135000228B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		397EBBD227FB7A5800067CDC /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		397EBBD527FB978A00067CDC /* MainMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMessagesView.swift; sourceTree = "<group>"; };
+		397EBBD727FB9F8D00067CDC /* shakira-queso-espinosa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shakira-queso-espinosa.jpeg"; sourceTree = "<group>"; };
+		397EBBD927FBA07100067CDC /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		397EBBDB27FCA65600067CDC /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		397EBBDD27FCAC0A00067CDC /* icons8-earbud-headphones-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-earbud-headphones-64.png"; sourceTree = "<group>"; };
+		397EBBE127FCACD300067CDC /* icons8-music-heart-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-music-heart-40.png"; sourceTree = "<group>"; };
+		398307F527FA8DE800DA17CF /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		39D6DDB927FF723C0092BC04 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				396A81F127FA6ED5000228B7 /* FirebaseAuth in Frameworks */,
+				396A81F327FA6ED5000228B7 /* FirebaseFirestore in Frameworks */,
+				396A81F527FA6ED5000228B7 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +96,26 @@
 		393891A127FA388B00BB5A00 /* Sanko music */ = {
 			isa = PBXGroup;
 			children = (
+				39D6DDB827FF72120092BC04 /* New Group */,
+				397EBBD427FB971E00067CDC /* MainMesssages */,
+				393891B827FA446400BB5A00 /* Sanko-music-Info.plist */,
 				393891A227FA388B00BB5A00 /* Sanko_musicApp.swift */,
 				393891A427FA388B00BB5A00 /* ContentView.swift */,
+				397EBBD227FB7A5800067CDC /* ImagePicker.swift */,
+				398307F527FA8DE800DA17CF /* SwiftUIView.swift */,
+				394F26D227FFDD2D00AF9B79 /* PlaybackControlButton.swift */,
+				396A81F627FA7135000228B7 /* GoogleService-Info.plist */,
 				393891A627FA388B00BB5A00 /* Assets.xcassets */,
+				394F26DC2800031F00AF9B79 /* Shakira_ft_Wyclef_Jean_-_Hips_Dont_Lie_[NaijaGreen.Com]_.mp3 */,
+				397EBBD927FBA07100067CDC /* play.png */,
+				397EBBDB27FCA65600067CDC /* house.png */,
+				397EBBE127FCACD300067CDC /* icons8-music-heart-40.png */,
+				397EBBDD27FCAC0A00067CDC /* icons8-earbud-headphones-64.png */,
+				393891B927FA545600BB5A00 /* da75e73447b64026aaa576de2c5b667a (1).png */,
+				393891B627FA43D400BB5A00 /* da75e73447b64026aaa576de2c5b667a.png */,
+				397EBBD727FB9F8D00067CDC /* shakira-queso-espinosa.jpeg */,
+				393891B227FA3C4900BB5A00 /* Screen Shot 2022-04-03 at 4.29.47 PM.png */,
+				393891B027FA399300BB5A00 /* Launch Screen.storyboard */,
 				393891A827FA388B00BB5A00 /* Preview Content */,
 			);
 			path = "Sanko music";
@@ -65,6 +127,25 @@
 				393891A927FA388B00BB5A00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		397EBBD427FB971E00067CDC /* MainMesssages */ = {
+			isa = PBXGroup;
+			children = (
+				397EBBD527FB978A00067CDC /* MainMessagesView.swift */,
+			);
+			path = MainMesssages;
+			sourceTree = "<group>";
+		};
+		39D6DDB827FF72120092BC04 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				39D6DDB927FF723C0092BC04 /* FirebaseManager.swift */,
+				394F26D427FFE8C700AF9B79 /* ViewModel.swift */,
+				394F26D627FFEDA700AF9B79 /* AudioManager.swift */,
+				394F26D827FFF7ED00AF9B79 /* Extensions.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +164,11 @@
 			dependencies = (
 			);
 			name = "Sanko music";
+			packageProductDependencies = (
+				396A81F027FA6ED5000228B7 /* FirebaseAuth */,
+				396A81F227FA6ED5000228B7 /* FirebaseFirestore */,
+				396A81F427FA6ED5000228B7 /* FirebaseStorage */,
+			);
 			productName = "Sanko music";
 			productReference = 3938919F27FA388B00BB5A00 /* Sanko music.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +197,9 @@
 				Base,
 			);
 			mainGroup = 3938919627FA388B00BB5A00;
+			packageReferences = (
+				396A81EF27FA6ED5000228B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 393891A027FA388B00BB5A00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +214,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397EBBE227FCACD300067CDC /* icons8-music-heart-40.png in Resources */,
+				393891B727FA43D400BB5A00 /* da75e73447b64026aaa576de2c5b667a.png in Resources */,
+				394F26DD2800031F00AF9B79 /* Shakira_ft_Wyclef_Jean_-_Hips_Dont_Lie_[NaijaGreen.Com]_.mp3 in Resources */,
+				393891B327FA3C4900BB5A00 /* Screen Shot 2022-04-03 at 4.29.47 PM.png in Resources */,
+				397EBBDC27FCA65600067CDC /* house.png in Resources */,
+				397EBBDA27FBA07100067CDC /* play.png in Resources */,
+				393891B127FA399300BB5A00 /* Launch Screen.storyboard in Resources */,
+				397EBBD827FB9F8E00067CDC /* shakira-queso-espinosa.jpeg in Resources */,
+				397EBBDE27FCAC0A00067CDC /* icons8-earbud-headphones-64.png in Resources */,
 				393891AA27FA388B00BB5A00 /* Preview Assets.xcassets in Resources */,
+				393891BA27FA545600BB5A00 /* da75e73447b64026aaa576de2c5b667a (1).png in Resources */,
 				393891A727FA388B00BB5A00 /* Assets.xcassets in Resources */,
+				396A81F727FA7135000228B7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +237,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39D6DDBA27FF723C0092BC04 /* FirebaseManager.swift in Sources */,
 				393891A527FA388B00BB5A00 /* ContentView.swift in Sources */,
+				397EBBD327FB7A5800067CDC /* ImagePicker.swift in Sources */,
+				394F26D327FFDD2D00AF9B79 /* PlaybackControlButton.swift in Sources */,
 				393891A327FA388B00BB5A00 /* Sanko_musicApp.swift in Sources */,
+				394F26D927FFF7EE00AF9B79 /* Extensions.swift in Sources */,
+				398307F627FA8DE800DA17CF /* SwiftUIView.swift in Sources */,
+				394F26D727FFEDA700AF9B79 /* AudioManager.swift in Sources */,
+				394F26D527FFE8C700AF9B79 /* ViewModel.swift in Sources */,
+				397EBBD627FB978A00067CDC /* MainMessagesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,18 +374,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sanko music/Preview Content\"";
 				DEVELOPMENT_TEAM = X97STG98HT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sanko-music-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +408,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sanko music/Preview Content\"";
 				DEVELOPMENT_TEAM = X97STG98HT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sanko-music-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,6 +459,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		396A81EF27FA6ED5000228B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com//firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		396A81F027FA6ED5000228B7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 396A81EF27FA6ED5000228B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		396A81F227FA6ED5000228B7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 396A81EF27FA6ED5000228B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		396A81F427FA6ED5000228B7 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 396A81EF27FA6ED5000228B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3938919727FA388B00BB5A00 /* Project object */;
 }

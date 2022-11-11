@@ -1,26 +1,31 @@
 {
   "images" : [
     {
+      "filename" : "icons8-music-heart-40.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "icons8-music-heart-60.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
+      "filename" : "icons8-music-heart-58.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
+      "filename" : "icons8-music-heart-87.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
+      "filename" : "icons8-music-heart-80.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"

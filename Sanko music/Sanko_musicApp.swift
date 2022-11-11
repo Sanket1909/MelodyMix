@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Sanko_musicApp: App {
+    @StateObject var audioManager = AudioManager()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainMessagesView( shakiraVM: MeditationViewModel(shakira: Shakira.data))
+                .environmentObject(audioManager)
         }
     }
 }
