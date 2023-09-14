@@ -13,8 +13,8 @@ MelodyMix is a music app developed in SwiftUI, integrating Firebase for user aut
 ## Screenshots
 
 <!-- Add screenshots or demo images of your app here -->
-![Screenshot 1](<screenshot_url_1>)
-![Screenshot 2](<screenshot_url_2>)
+![Screenshot 1](<https://github.com/Sanket1909/MelodyMix/blob/master/Demo.png>)
+
 <!-- Add more screenshots as needed -->
 
 ## Getting Started
