@@ -10,7 +10,6 @@ import SwiftUI
 
 struct SwiftUIView: View {
     @EnvironmentObject var audioManager: AudioManager
-    //var shakiraVM: MeditationViewModel
     @StateObject var shakiraVM: MeditationViewModel = MeditationViewModel(artists: artistsData)
     var isPreview:Bool = false
     var selectedArtist: Artist  
@@ -34,8 +33,8 @@ struct SwiftUIView: View {
             Image(selectedArtist.image)
                 .resizable()
                 .scaledToFill()
-                .frame(width: 250, height: 250) // Adjust the image size here
-                .clipShape(Circle()) // Make the image circular
+                .frame(width: 250, height: 250) 
+                .clipShape(Circle()) 
                 .padding(8)
                 .shadow(color: Color.gray.opacity(0.6), radius: 5,x:5,y:5)
                 .shadow(color: Color.black, radius: 5,x:5,y:-5)
@@ -43,16 +42,16 @@ struct SwiftUIView: View {
                 .overlay(
                     Circle()
                         .stroke(Color.blue, lineWidth: 2)
-                        .scaleEffect(1 + abs(sin(Date().timeIntervalSince1970 * 2))) // Add a pulsating effect
+                        .scaleEffect(1 + abs(sin(Date().timeIntervalSince1970 * 2))) 
                         .opacity(0.5)
-                        .frame(width: 160, height: 260) // Adjust the size of the pulsating circle
+                        .frame(width: 160, height: 260) 
                 )
                 .overlay(
                     Circle()
                         .stroke(Color.green, lineWidth: 2)
-                        .scaleEffect(1 + abs(cos(Date().timeIntervalSince1970 * 2))) // Add another pulsating effect with a different color
+                        .scaleEffect(1 + abs(cos(Date().timeIntervalSince1970 * 2))) 
                         .opacity(0.5)
-                        .frame(width: 150, height: 270) // Adjust the size of the pulsating circle
+                        .frame(width: 150, height: 270) 
                 )
             VStack(spacing: 32) {
                 HStack{
@@ -63,7 +62,7 @@ struct SwiftUIView: View {
                         Image(systemName: "xmark.circle.fill")
                             .font(.system(size: 37))
                             .foregroundColor(.white)
-                            //.shadow(color: Color("Color1").opacity(0.6), radius: 5,x:5,y:5)
+                            
                             .shadow(color: Color.black, radius: 5,x:5,y:5)
                         
                         
@@ -144,7 +143,7 @@ struct SwiftUIView: View {
             .padding(20)
         }
         .onAppear{
-            // AudioManager.shared.startPlayer(track: shakiraVM.shakira.track,isPriview: isPreview)
+           
             audioManager.startPlayer(track: selectedArtist.songs[0].track, isPriview: true)
         }
         .onReceive(timer) {_ in
@@ -160,11 +159,4 @@ struct SwiftUIView: View {
 
 
 
-/*struct SwiftUIView_Previews: PreviewProvider {
-    static var shakiraVM = MeditationViewModel(artists: artistsData)
-    
-    static var previews: some View {
-        SwiftUIView(shakiraVM: shakiraVM,isPreview: true, selectedArtist: <#Artist#>)
-            .environmentObject(AudioManager())
-    }
-}*/
+
